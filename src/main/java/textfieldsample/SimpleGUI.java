@@ -17,6 +17,7 @@ public class SimpleGUI extends Application {
 
     @Override
     public void start(Stage stage) {
+
         Group root = new Group();
         Scene scene = new Scene(root, 300, 150);
         stage.setScene(scene);
